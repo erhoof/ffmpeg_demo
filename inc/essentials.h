@@ -2,6 +2,8 @@
 #define _ESSENTIALS_H_
 
 #include <iostream>
+#include <filesystem>
+#include <format>
 
 extern "C" { // Again, lost 1 hour for missing extern "C" .........
     #include <libavformat/avformat.h>
